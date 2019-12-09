@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <link rel="stylesheet" href="/bootstrap-4.3.1-dist/css/bootstrap.min.css">
+</head>
+
+<body>
+
+    <nav class="navbar navbar-expand-md mt-0 navbar-dark bg-dark">
+        <a class="navbar-brand" href="">Capgemini</a>
+        <button class="navbar-toggler d-lg" type="button" data-toggle="collapse" data-target="#collapsibleNavId"
+            aria-controls="collapsibleNavId" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="collapsibleNavId">
+            <ul class="navbar-nav mr-auto mt-2 mt-md-0">
+                <li class="nav-item">
+                    <a class="nav-link" href="home.html">Home <span class="sr-only">(current)</span></a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="aboutus.html">about</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="contactus.html">Contact us</a>
+                </li>
+
+            </ul>
+            <ul class="navbar-nav mi-auto">
+                <li class="nav-item ">
+                    <a class="nav-link" href="register.html">Register <span class="sr-only">(current)</span></a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="login.html">Login</a>
+                </li>
+            </ul>
+        </div>
+    </nav>
+    <div class="col-md-6 offset-md-3 mt-5">
+        <h4 class="border-bottom">Please Register!!!</h4>
+        <form action="">
+            <div class="input-group mb-3">
+                <div class="input-group-prepend">
+                    <span class="input-group-text">First and last name</span>
+                </div>
+                <input type="text" name="name" id="" placeholder="Name" class="form-control">
+                <input type="text" name="name" id="" placeholder="Last" class="form-control">
+            </div>
+            <div class="input-group mb-3">
+                <div class="input-group-prepend">
+                    <span class="input-group-text">Email</span>
+                </div>
+                <input type="text" name="email" id="" placeholder="Enter Email Address" class="form-control">
+            </div>
+
+            <div class="input-group mb-3">
+                <div class="input-group-prepend">
+                    <span class="input-group-text">DOB</span>
+                </div>
+                <input type="dob" name="dob" id="" placeholder="dd-mm-yyyy" class="form-control">
+            </div>
+            <div class="input-group mb-3">
+                <div class="input-group-prepend">
+                    <span class="input-group-text">Password</span>
+                </div>
+                <input type="password" name="password" id="" placeholder="Enter Password" class="form-control">
+            </div>
+            <div class="btn btn-group float-right">
+                <button type="reset" class="btn btn-outline-dark">Reset</button>
+                <button type="submit" class="btn btn-outline-primary">Register</button>
+            </div>
+        </form>
+    </div>
+
+    <script src="/js/jquery-3.4.1.js"></script>
+    <script src="/bootstrap-4.3.1-dist/js/bootstrap.min.js"></script>
+</body>
+
+</html>

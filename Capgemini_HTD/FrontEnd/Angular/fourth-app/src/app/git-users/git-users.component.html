@@ -1,0 +1,28 @@
+<div class="container m-auto">
+    <div class="component">
+        <table class="table table-bordered">
+            <thead>
+            <tr>
+                <th>Index</th>
+                <th>ID</th>
+                <th>Name</th>
+                <th>Image</th>
+                <th>URL</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr *ngFor='let user of gitusers; index as i'>
+                <td>{{i+1}}</td>
+                <td>{{user.node_id}}</td>
+                <td>{{user.login}}</td>
+                <td>
+                    <img [src]="user.avatar_url" width="200px" height="200px" alt="">
+                </td>
+                <td>{{user.url}}</td>
+            </tr>
+        </tbody>
+    
+        </table>
+    </div>
+    
+</div>

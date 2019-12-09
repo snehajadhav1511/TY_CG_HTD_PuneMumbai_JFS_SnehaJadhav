@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xsi:schemaLocation="
+        http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans.xsd">
+
+	<!-- bean definitions here -->
+	<!-- Using byType -->
+	<bean id="mobile" class="com.capgemini.springcore.beans.MobileBean" scope="prototype" autowire="byType">
+		<property name="brandName" value="Redmi Xiomi" />
+		<property name="modelName" value="Redmi Note 7 Pro" />
+		<property name="price" value="15000" />
+		
+	</bean>
+	
+	<bean id="display2" class="com.capgemini.springcore.beans.MobileDisplayBean">
+		<property name="displaySize" value="6.5" />
+		<property name="resolution" value="17855990" />
+	</bean>
+	
+	<!-- Using byName -->
+<!-- 	<bean id="mobile" class="com.capgemini.springcore.beans.MobileBean" scope="prototype" autowire="byName">
+		<property name="brandName" value="Redmi Xiomi" />
+		<property name="modelName" value="Redmi Note 7 Pro" />
+		<property name="price" value="15000" />
+		
+	</bean>
+	<bean id="displayBean" class="com.capgemini.springcore.beans.MobileDisplayBean"> 
+		<property name="displaySize" value="5.5"/> <property name="resolution" value="3455990"/> 
+		</bean>
+ -->
+
+</beans>

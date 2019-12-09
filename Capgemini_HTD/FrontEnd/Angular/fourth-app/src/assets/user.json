@@ -1,0 +1,31 @@
+[{
+    "id":12345,
+    "name": "sneha",
+    "email": "sneha@gmail.com",
+    "phone":123456789
+},{
+    "id":12346,
+    "name": "saumya",
+    "email": "saumya@gmail.com",
+    "phone":1234571225
+},{
+    "id":12347,
+    "name": "shubham",
+    "email": "shubham@gmail.com",
+    "phone":345678912
+},{
+    "id":12348,
+    "name": "nisha",
+    "email": "nisha@gmail.com",
+    "phone":456789123
+},{
+    "id":12349,
+    "name": "varsha",
+    "email": "varsha@gmail.com",
+    "phone":567891234
+},{
+    "id":12350,
+    "name": "namdev",
+    "email": "namdev@gmail.com",
+    "phone":789456123
+}]

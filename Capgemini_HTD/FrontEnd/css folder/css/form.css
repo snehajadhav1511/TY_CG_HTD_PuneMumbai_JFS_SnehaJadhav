@@ -1,0 +1,41 @@
+form{
+    border: 1px solid black;
+    border-radius: 25px;
+    width: 400px;
+    height: 211px;
+    margin-left: 385px;
+    margin-top: 211px;
+    text-align: center;
+    background-image: url("/images/IdealisticApprehensiveKilldeer-small.gif");
+    font-size: 20px;
+    color: white;
+    padding-top: 20px;
+    box-shadow: 10px 10px 50px rgb(224, 56, 56);
+    font-family: cursive;
+}
+input[type="text"],input[type = "password"]{
+width:200px;
+height: 20px;
+border: 1px solid red;
+border-radius: 50px;
+margin: 10px;
+outline: none;
+text-align: center;
+}
+input[type="submit"]{
+    border: 1px solid red;
+    padding: 5px 20px;
+    border-radius: 25px;
+    outline: none;
+
+}
+input[type="submit"]:hover{
+    background-color: skyblue;
+    cursor: pointer;
+
+}
+/* body{
+     background-image: url("/images/japanese-cherry-trees-324175__340.jpg");
+    background-size: cover; 
+
+} */
